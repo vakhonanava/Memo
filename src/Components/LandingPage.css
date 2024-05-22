@@ -1,0 +1,39 @@
+.landing {
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.landing-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.landing-header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.landing-nav {
+  margin-top: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+}
+.landing-image {
+  width: 100%;
+  height: auto; /* maintain aspect ratio */
+  margin-bottom: 20px; /* space between the image and the header text */
+}
