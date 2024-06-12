@@ -5,7 +5,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { collection, getDocs } from "firebase/firestore";
 import QRCode from "qrcode.react";
 import "./Gallery.css";
-import FileUpload from "./FileUpload";
+import FileUpload from "./FileUpload"
 
 function Gallery() {
   const [user, loading, error] = useAuthState(auth);

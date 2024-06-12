@@ -9,6 +9,7 @@ import PublicView from "./Components/PublicView";
 import Gallery from "./Components/Gallery";
 import { AuthProvider } from "./Components/AuthContext";
 
+
 function App() {
   return (
     <AuthProvider>
